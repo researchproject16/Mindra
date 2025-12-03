@@ -1,0 +1,52 @@
+{
+  "users": [
+    {
+      "id": "user_alice",
+      "email": "alice@example.com",
+      "passwordHash": "$2a$10$E9p0qgXQvF6Sg7p0m1Kq5O8Z8n3tX5aG1t2sK0h1YQq5wz3JiP2uS"
+    },
+    {
+      "id": "user_bob",
+      "email": "bob@example.com",
+      "passwordHash": "$2a$10$E9p0qgXQvF6Sg7p0m1Kq5O8Z8n3tX5aG1t2sK0h1YQq5wz3JiP2uS"
+    }
+  ],
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Introduction to Algebra",
+      "level": "Beginner",
+      "content": "<p>Learn the basics of algebra: variables, expressions, and simple equations.</p>",
+      "quiz": [
+        {
+          "id": "q1",
+          "text": "What is x if 2x + 3 = 7?",
+          "options": ["1", "2", "3", "4"],
+          "answerIndex": 1
+        },
+        {
+          "id": "q2",
+          "text": "Which is an expression (not an equation)?",
+          "options": ["x + 2 = 5", "3y - 4", "5 = 5", "x = y"],
+          "answerIndex": 1
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Basic Physics: Motion",
+      "level": "Beginner",
+      "content": "<p>Understand speed, velocity, and acceleration.</p>",
+      "quiz": [
+        {
+          "id": "q1",
+          "text": "Speed is defined as:",
+          "options": ["Displacement per time", "Distance per time", "Rate of change of velocity", "None"],
+          "answerIndex": 1
+        }
+      ]
+    }
+  ],
+  "progress": [],
+  "analytics": []
+}
