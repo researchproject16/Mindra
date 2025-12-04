@@ -1,0 +1,24 @@
+:root{
+  --bg:#fff; --text:#0f172a; --accent:#0ea5a4; --muted:#6b7280;
+  --max-width:900px; --radius:8px;
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);line-height:1.5}
+.container{max-width:var(--max-width);margin:0 auto;padding:1rem}
+.site-header{border-bottom:1px solid #eef2f7;background:#f8fafc}
+.header-grid{display:flex;align-items:center;justify-content:space-between}
+.brand{margin:0;padding:0.75rem 0}
+nav button{margin-left:0.5rem;background:none;border:0;color:var(--accent);cursor:pointer}
+.app{min-height:100vh;display:flex;flex-direction:column}
+main.container{flex:1;padding-top:1.5rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem}
+.card{padding:1rem;border:1px solid #eef2f7;border-radius:8px}
+.auth-card{max-width:420px;margin:3rem auto;padding:1.25rem;border:1px solid #eef2f7;border-radius:8px}
+.auth-card input{display:block;width:100%;padding:0.5rem;margin-bottom:0.75rem;border:1px solid #e6eef8;border-radius:6px}
+button{background:var(--accent);color:#fff;border:0;padding:0.5rem 0.75rem;border-radius:6px;cursor:pointer}
+.row{display:flex;gap:0.5rem;align-items:center}
+.muted{color:var(--muted)}
+.quiz-card{margin-bottom:1rem;padding:0.75rem;border:1px dashed #f0f6f7;border-radius:6px}
+.option{display:block;margin-bottom:0.5rem}
+.site-footer{border-top:1px solid #eef2f7;padding:1rem 0;text-align:center;color:var(--muted)}
